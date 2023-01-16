@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/**------- INICIO CONFIGURACIÓN GENERAL PARA EMPEZAR ------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; 
+    /*Para quitar las letras subrayadas*/
+}
+
+/*------------- Paleta de colores ------*/
+:root {
+/* CSS HEX */
+--mineral-green: #436250;
+--conch: #c6d5cd;
+--mantle: #84948c;
+--xanadu: #6c8374;
+--viridian-green: #64946c;
+--black-haze: #f2f3f3;
+--envy: #9caa9c;
+--manatee: #9c9c9e;
+--mid-gray: #6c6c74;
+
+}
