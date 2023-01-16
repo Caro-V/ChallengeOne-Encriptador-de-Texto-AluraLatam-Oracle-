@@ -1,0 +1,40 @@
+{
+  "name": "oracle-aluralatam-encriptadordetexto-challenge1",
+  "version": "1.0.0",
+  "requires": true,
+  "description": "Interfaz que permite encriptar y desencriptar un texto dado.",
+  "main": "index.js",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test": "jest --verbose --coverage",
+    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
+    "start": "serve ./src",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caro-V/Oracle-AluraLatam-encriptadorDeTexto-challenge1.git"
+  },
+  "keywords": [
+    "alura",
+    "oracle",
+    "group4",
+    "challengeonecodificador4"
+  ],
+  "author": "Carolina Velásquez Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caro-V/Oracle-AluraLatam-encriptadorDeTexto-challenge1/issues"
+  },
+  "homepage": "https://github.com/Caro-V/Oracle-AluraLatam-encriptadorDeTexto-challenge1#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.4"
+  },
+  "dependencies": {
+    "serve": "^14.1.2"
+  }
+}
