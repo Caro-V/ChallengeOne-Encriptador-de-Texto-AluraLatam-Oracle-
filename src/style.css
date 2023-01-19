@@ -35,36 +35,125 @@ body {
 
 }
 
-.form_output{
+.form_output {
     display: flex;
     flex-direction: column;
     margin: 80px 10px 100px 10px;
+    width: 300px;
+    background-color: var(--black-haze);
+    border-radius: 15px;
 }
 
 .input {
     height: 460px;
     width: 660px;
     border-style: dashed;
+    border-width: 3px;
     border-radius: 15px;
     background-color: var(--conch);
+    padding: 10px 0px 0px 15px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+
 }
 
 .output {
+    text-align: center;
+    padding-top: 15px;
+    background-color: var(--black-haze);
+    border: none;
+    height: 100px;
+    border-radius: 15px;
+}
 
-    width: 100px;
+#msgCopiado {
+    text-align: center;
+    color: var(--xanadu);
+    font-size: 13px;
+}
+
+.btnCopiar:hover {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+    background-color: var(--mineral-green);
+    color: var(--black-haze);
+    width: 160px;
+    cursor: pointer;
+
 }
 
 .btnCopiar {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+    background-color: var(--envy);
+    color: var(--mineral-green);
+    width: 160px;
+    cursor: pointer;
+}
 
+.btnsEncrip {
+    display: flex;
+}
+
+.btnEncriptar:hover,
+.btnDesencriptar:hover {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 160px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+    background-color: var(--mineral-green);
+    color: var(--black-haze);
+    cursor: pointer;
 }
 
 .btnEncriptar,
 .btnDesencriptar {
     margin-right: 50px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin: auto;
+    width: 160px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+    background-color: var(--envy);
+    color: var(--mineral-green);
+    cursor: pointer;
+}
+
+.img_girl {
+    width: 270px;
+    height: 300px;
+    margin: 150px 0px 0px 30px;
+}
+
+.img_boy {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.textError,
+.textError2 {
+    text-align: center;
+    width: 300px;
+    color: var(--mineral-green)
+}
+
+.textError {
+    margin-top: 50px;
 }
 
 ::-webkit-input-placeholder {
