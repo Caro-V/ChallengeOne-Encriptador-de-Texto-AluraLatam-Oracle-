@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/**------- INICIO CONFIGURACIÓN GENERAL PARA EMPEZAR ------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    /*Para quitar las letras subrayadas*/
+}
+
+/*------------- Paleta de colores ------*/
+:root {
+    /* CSS HEX */
+    --mineral-green: #436250;
+    --conch: #c6d5cd;
+    --mantle: #84948c;
+    --xanadu: #6c8374;
+    --viridian-green: #64946c;
+    --black-haze: #f2f3f3;
+    --envy: #9caa9c;
+    --manatee: #9c9c9e;
+    --mid-gray: #6c6c74;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: var(--conch);
+}
+
+.form_input {
+    margin: 80px 0px 300px 200px;
+
+}
+
+.form_output{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 10px 100px 10px;
+}
+
+.input {
+    height: 460px;
+    width: 660px;
+    border-style: dashed;
+    border-radius: 15px;
+    background-color: var(--conch);
+}
+
+.output {
+
+    width: 100px;
+}
+
+.btnCopiar {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.btnEncriptar,
+.btnDesencriptar {
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+::-webkit-input-placeholder {
+    color: var(--envy);
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px 0px 15px;
+}
+
+::-moz-placeholder {
+    color: var(--envy);
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px 0px 15px;
+}
+
+:-ms-input-placeholder {
+    color: var(--envy);
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px 0px 15px;
+}
